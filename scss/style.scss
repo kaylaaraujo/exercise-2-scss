@@ -1,10 +1,12 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Untitled Document</title>
-</head>
+/*This file imports all of your scss partials to be 
+compiled into one stylesheet, which you can then attach to your html.
 
-<body>
-</body>
-</html>
+All files that are prefixed with an underscore 
+"_name-of-file.scss" are called partials 
+- meaning their css isn't compiled unless it's 
+imported into an unprefixed .scss file*/
+
+//Import variables, mixins and other modules
+@import "base";
+@import "mixins";
+
