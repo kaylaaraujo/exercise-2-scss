@@ -25,6 +25,9 @@ body {
   display: inline-block;
   text-decoration: none;
   color: #fff; }
+  /* line 9, /Users/kaylaaraujo/Desktop/SCHOOL/Algonquin Graphic Design/Year 3/SEMESTER 2/Web Dev/exercise-2-scss/scss/mixins */
+  .primary-btn:hover {
+    background-color: #2980b9; }
 
 /* line 10, /Users/kaylaaraujo/Desktop/SCHOOL/Algonquin Graphic Design/Year 3/SEMESTER 2/Web Dev/exercise-2-scss/scss/components/main */
 .secondary-btn {
@@ -35,3 +38,14 @@ body {
   display: inline-block;
   text-decoration: none;
   color: #000; }
+  /* line 9, /Users/kaylaaraujo/Desktop/SCHOOL/Algonquin Graphic Design/Year 3/SEMESTER 2/Web Dev/exercise-2-scss/scss/mixins */
+  .secondary-btn:hover {
+    background-color: #2980b9; }
+
+/* line 14, /Users/kaylaaraujo/Desktop/SCHOOL/Algonquin Graphic Design/Year 3/SEMESTER 2/Web Dev/exercise-2-scss/scss/components/main */
+.border, ul {
+  border: 1px solid #666; }
+  /* line 16, /Users/kaylaaraujo/Desktop/SCHOOL/Algonquin Graphic Design/Year 3/SEMESTER 2/Web Dev/exercise-2-scss/scss/components/main */
+  .border p, ul p {
+    background: green; }
+
