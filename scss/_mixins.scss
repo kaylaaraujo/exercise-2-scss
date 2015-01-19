@@ -1,4 +1,4 @@
-@mixin button($bg-color, $color) {
+@mixin button($bg-color, $color, $hover-color) {
 	background-color: $bg-color;
 	border-radius: 3px;
 	padding: 0.5em 1em;
@@ -6,4 +6,7 @@
 	display: inline-block;
 	text-decoration: none;
 	color: $color;
+	&:hover {
+		background-color: $hover-color;
+	}
 }
