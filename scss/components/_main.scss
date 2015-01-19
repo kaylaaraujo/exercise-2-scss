@@ -4,9 +4,20 @@ body {
 }
 
 .primary-btn {
-	@include button($primary, #fff);
+	@include button($primary, #fff, $primary-dark);
 }
 
 .secondary-btn {
-	@include button($secondary, #000);
+	@include button($secondary, #000, $primary-dark);
+}
+
+.border {
+	border: 1px solid $secondary-dark;
+	p{
+		background: green;
+	}
+}
+
+ul {
+	@extend .border;
 }
