@@ -1,3 +1,12 @@
 body {
 	background-color: $background;
+	font-family: sans-serif;
+}
+
+.primary-btn {
+	@include button($primary, #fff);
+}
+
+.secondary-btn {
+	@include button($secondary, #000);
 }
