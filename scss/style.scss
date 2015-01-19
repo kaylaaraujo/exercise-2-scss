@@ -6,7 +6,12 @@ All files that are prefixed with an underscore
 - meaning their css isn't compiled unless it's 
 imported into an unprefixed .scss file*/
 
-//Import variables, mixins and other modules
+// Import variables, mixins and other modules
 @import "base";
 @import "mixins";
+
+// Component rules
+@import "components/main";
+
+// 
 
